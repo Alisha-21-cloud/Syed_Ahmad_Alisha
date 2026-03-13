@@ -39,7 +39,7 @@ export function ProjectCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       className={cn(
-        "group flex flex-col h-full bg-[#1A1A1A] rounded-3xl overflow-hidden border border-border/10 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/5",
+        "group flex flex-col h-full bg-card rounded-3xl overflow-hidden border border-border/40 hover:border-primary/30 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10",
         className
       )}
     >
@@ -58,7 +58,7 @@ export function ProjectCard({
             rel="noopener noreferrer"
             className="absolute inset-0 flex items-center justify-center"
           >
-            <div className="bg-gradient-to-r from-primary to-[#16a34a] text-white px-8 py-3 rounded-full font-bold text-base flex items-center gap-2 shadow-2xl hover:scale-110 active:scale-95 transition-all group-hover/image:opacity-100 opacity-0 transition-opacity duration-300">
+            <div className="bg-gradient-to-r from-primary to-[#16a34a] text-white px-8 py-3 rounded-full font-bold text-base flex items-center gap-2 shadow-2xl hover:scale-110 active:scale-95 opacity-0 group-hover/image:opacity-100 transition duration-300">
               Visit <ArrowUpRight size={18} strokeWidth={2.5} />
             </div>
           </a>
@@ -74,7 +74,7 @@ export function ProjectCard({
       {/* Project Information Section (Middle) */}
       <div className="p-8 flex-1 flex flex-col">
         <div className="space-y-4 mb-6">
-          <h4 className="text-2xl font-bold text-white group-hover:text-primary transition-colors leading-tight">
+          <h4 className="text-2xl font-bold text-card-foreground group-hover:text-primary transition-colors leading-tight">
             {title}
           </h4>
           <p className="text-muted-foreground text-base line-clamp-3 leading-relaxed">
@@ -107,7 +107,7 @@ export function ProjectCard({
       </div>
 
       {/* Project Footer Section */}
-      <div className="px-8 py-6 border-t border-border/5">
+      <div className="px-8 py-6 border-t border-border/40">
         <span className="text-sm font-medium text-muted-foreground/80 uppercase tracking-wider">
           {type}
         </span>

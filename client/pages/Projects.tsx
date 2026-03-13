@@ -71,7 +71,7 @@ const allProjects = [
 export default function ProjectsPage() {
   return (
     <Layout>
-      <div className="py-24 max-w-7xl mx-auto px-6 md:px-12 bg-black">
+      <div className="py-24 max-w-7xl mx-auto px-6 md:px-12 bg-background">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
