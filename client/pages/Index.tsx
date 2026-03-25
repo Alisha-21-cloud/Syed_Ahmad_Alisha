@@ -46,7 +46,7 @@ function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-5 pt-4">
-            <Link to="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link to="/resume2.pdf" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="rounded-2xl px-8 h-14 text-lg shadow-xl shadow-primary/20 hover:scale-105 transition-all group">
                 Resume
                 <Briefcase className="ml-2 group-hover:rotate-12 transition-transform" size={20} />

@@ -13,7 +13,7 @@ const allProjects = [
     category: "Web Application",
     description: "AI-powered text-to-speech and voice cloning built with Next.js 16, React 19, and Chatterbox TTS.",
     image: "/resonance.png",
-    techStack: [" Next.js","React", "TypeScript", "PostgreSQL","Tailwind CSS", "Sentry", "Cloudflare", "Railway"],
+    techStack: [" Next.js", "React", "TypeScript", "PostgreSQL", "Tailwind CSS", "Sentry", "Cloudflare", "Railway"],
     liveUrl: "https://resonance-production-d84f.up.railway.app",
   },
   {
@@ -33,7 +33,7 @@ const allProjects = [
     category: "Web Application",
     description: "A production-grade, full-stack SaaS AI chatbot platform designed to be embedded into any website.",
     image: "/supportai.png",
-    techStack: ["Next.js","React", "Typescript", "Scalekit", "Framer Motion", "MongoDB", "Tailwind CSS"],
+    techStack: ["Next.js", "React", "Typescript", "Scalekit", "Framer Motion", "MongoDB", "Tailwind CSS"],
     liveUrl: "https://support-ai-sigma.vercel.app/",
   },
   {
@@ -43,7 +43,7 @@ const allProjects = [
     category: "Web Application",
     description: "A personal tech blogging platform built with Next.js 16, React 19, and Tailwind CSS, featuring a sleek UI and seamless content management.",
     image: "/techblog.png",
-    techStack: ["Next.js","React", "Typescript", "BetterAuth", "Tailwind CSS", "PostgreSQL"],
+    techStack: ["Next.js", "React", "Typescript", "BetterAuth", "Tailwind CSS", "PostgreSQL"],
     liveUrl: "https://tech-blog-beige-eight.vercel.app/",
   },
   {
@@ -53,18 +53,48 @@ const allProjects = [
     category: "Web Application",
     description: "A multi-vendor e-commerce platform built with Next.js 16, React 19, and Tailwind CSS, enabling seamless online shopping experiences for both customers and vendors.",
     image: "/multicart.png",
-    techStack: ["Next.js","React", "Typescript", "BetterAuth", "Tailwind CSS", "MongoDB", "Framer Motion", "Cloudinary"],
+    techStack: ["Next.js", "React", "Typescript", "BetterAuth", "Tailwind CSS", "MongoDB", "Framer Motion", "Cloudinary"],
     liveUrl: "https://multi-cart-one.vercel.app/",
   },
   {
     id: "Polaris",
-  title: "Polaris - Browser based Cloud IDE",
+    title: "Polaris - Browser based Cloud IDE",
     type: "Cloud IDE",
     category: "Web Application",
     description: "A modern, browser-based Cloud IDE inspired by Cursor, designed to deliver real-time collaboration, AI-assisted development, and scalable project management directly in the browser.",
     image: "/polaris.png",
-    techStack: ["Next.js","React", "Typescript", "Clerk", "Convex"],
+    techStack: ["Next.js", "React", "Typescript", "Clerk", "Convex"],
     liveUrl: "https://polaris-opal-phi.vercel.app/",
+  },
+  {
+    id: "AI-Compass",
+    title: "AI-Compass - personalized AI-powered career development companion",
+    type: "Career Development Application",
+    category: "Web Application",
+    description: "Career Compass AI is a sophisticated web application designed to help professionals navigate career transitions and growth.",
+    image: "/aicompass.png",
+    techStack: ["React", "Typescript", "Clerk", "MongoDB", "gemini"],
+    liveUrl: "https://aicompass-psi.vercel.app/",
+  },
+  {
+    id: "AI-Music generator platform",
+    title: "AI - Music generator platform",
+    type: "Music Generation Platform",
+    category: "Web Application",
+    description: "A web application that leverages AI to generate unique music compositions based on user preferences and input.",
+    image: "/music.png",
+    techStack: ['T3Stack',"AWS", "Modal", "python", "ACE_Step"],
+    liveUrl: "https://aimusic-psi.vercel.app/",
+  },
+  {
+    id: "AI-Website Builder",
+    title: "Noovix - AI Website Builder",
+    type: "Website Builder",
+    category: "Web Application",
+    description: "Noovix is an AI-powered web application generator that transforms your ideas into fully functional,web apps through prompts.",
+    image: "/noovix.png",
+    techStack: ["Next.js", "React", "Typescript", "Clerk", "Prisma", "Docker", "inngest"],
+    liveUrl: "https://aimusic-psi.vercel.app/",
   },
 ];
 
@@ -81,7 +111,7 @@ export default function ProjectsPage() {
             <SectionHeader
               subtitle="My Portfolio"
               title="Creative Projects"
-              description="Explore my latest work across web development, software engineering, and UI/UX design."
+              description="Explore my personal work across web development, software engineering, and UI/UX design."
               center
             />
           </div>
@@ -103,16 +133,16 @@ export default function ProjectsPage() {
           </div>
 
           <div className="pt-24 text-center">
-             <SectionHeader
-               subtitle="Next Steps"
-               title="Ready to Start Your Project?"
-               center
-             />
-             <Link to="/book">
-               <Button size="lg" className="rounded-2xl px-12 h-16 text-lg font-bold shadow-xl shadow-primary/20 hover:scale-105 transition-all">
-                  Book a Meeting
-               </Button>
-             </Link>
+            <SectionHeader
+              subtitle="Next Steps"
+              title="Ready to Start Your Project?"
+              center
+            />
+            <Link to="/book">
+              <Button size="lg" className="rounded-2xl px-12 h-16 text-lg font-bold shadow-xl shadow-primary/20 hover:scale-105 transition-all">
+                Book a Meeting
+              </Button>
+            </Link>
           </div>
         </motion.div>
       </div>

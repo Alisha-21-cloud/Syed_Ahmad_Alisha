@@ -23,105 +23,140 @@ export default function AboutPage() {
   ];
 
   const experienceData = [
-  {
-    year: "Oct 2024 - Present",
-    title: "Freelance Web Developer",
-    company: "Freelance",
-    type: "Remote",
-    description:
-      "Working as a freelance web developer delivering custom, production-ready web solutions for multiple clients across different domains. Handling end-to-end development from requirement gathering and UI design to deployment and post-launch support with a focus on performance, responsiveness, and modern web standards.",
-    responsibilities: [
-      "Collaborated with clients to understand business requirements and translate them into scalable web applications",
-      "Designed and developed responsive user interfaces using modern frontend frameworks and UI/UX best practices",
-      "Built and integrated REST APIs to enable dynamic data handling and third-party service integrations",
-      "Implemented authentication, authorization, and secure data handling across client projects",
-      "Deployed and maintained applications on cloud platforms ensuring reliability and performance",
-      "Provided ongoing maintenance, feature enhancements, and technical support post-deployment"
-    ],
-    achievements: [
-      "Successfully delivered multiple client projects within agreed timelines and budgets",
-      "Improved website performance and responsiveness across devices for client-facing applications",
-      "Built reusable components and modular codebases reducing development time for future projects",
-      "Maintained long-term client relationships through consistent delivery and support"
-    ],
-    technologies: ["Next.js", "React", "PostgreSQL", "Supabase", "Python"]
-  },
-  {
-    year: "Sep 2025 - Nov 2025",
-    title: "AI Intern",
-    company: "Infosys Springboard",
-    type: "Remote",
-    description:
-      "Worked as an AI Intern on the FinanceInsight project focusing on applying transformer-based NLP models to financial document analysis. Built and optimized machine learning pipelines to extract structured financial intelligence from unstructured reports using state-of-the-art deep learning techniques.",
-    responsibilities: [
-      "Designed and developed transformer-based NER models using PyTorch and Hugging Face Transformers",
-      "Fine-tuned FinBERT models on the Finer-139 dataset to identify domain-specific financial entities",
-      "Built automated pipelines for financial report parsing, document segmentation, and table extraction",
-      "Integrated external financial validation using Yahoo Finance APIs to verify extracted metrics",
-      "Developed scalable backend inference services using FastAPI",
-      "Collaborated with mentors and peers to evaluate model performance and optimize training strategies"
-    ],
-    achievements: [
-      "Achieved a weighted F1-score of 98.12% on financial entity extraction tasks",
-      "Reduced manual financial analysis time by 40% through automated document parsing pipelines",
-      "Improved accuracy and consistency of extracted financial metrics across reports and filings",
-      "Successfully validated extracted entities using real-time financial data sources"
-    ],
-    technologies: [
-      "Python",
-      "PyTorch",
-      "FastAPI",
-      "Hugging Face Transformers",
-      "NLP Pipelines",
-      "FinBERT"
-    ]
-  }
-];
+    {
+      year: "Oct 2024 - Present",
+      title: "Freelance Web Developer",
+      company: "Freelance",
+      type: "Remote",
+      description:
+        "Working as a freelance web developer delivering custom, production-ready web solutions for multiple clients across different domains. Handling end-to-end development from requirement gathering and UI design to deployment and post-launch support with a focus on performance, responsiveness, and modern web standards.",
+      responsibilities: [
+        "Collaborated with clients to understand business requirements and translate them into scalable web applications",
+        "Designed and developed responsive user interfaces using modern frontend frameworks and UI/UX best practices",
+        "Built and integrated REST APIs to enable dynamic data handling and third-party service integrations",
+        "Implemented authentication, authorization, and secure data handling across client projects",
+        "Deployed and maintained applications on cloud platforms ensuring reliability and performance",
+        "Provided ongoing maintenance, feature enhancements, and technical support post-deployment"
+      ],
+      achievements: [
+        "Successfully delivered multiple client projects within agreed timelines and budgets",
+        "Improved website performance and responsiveness across devices for client-facing applications",
+        "Built reusable components and modular codebases reducing development time for future projects",
+        "Maintained long-term client relationships through consistent delivery and support"
+      ],
+      technologies: ["Next.js", "React", "PostgreSQL", "Supabase", "Python"]
+    },
+    {
+      year: "Oct 2025 - Mar 2026",
+      title: "Full Stack Developer Intern",
+      company: "UdrCrafts",
+      type: "Remote",
+      description:
+        "Worked as a Full Stack Developer Intern focusing on identifying and resolving critical security vulnerabilities while enhancing frontend performance and user experience. Contributed to building a more secure, scalable, and production-ready web application by implementing modern development and security best practices.",
+      responsibilities: [
+        "Identified and fixed critical security vulnerabilities including authentication flaws, insecure APIs, and data exposure risks",
+        "Implemented robust input validation, rate limiting, and secure session management mechanisms",
+        "Enhanced API security and configured proper CORS policies to prevent unauthorized access",
+        "Improved database security and implemented encryption strategies for sensitive data",
+        "Optimized frontend performance, UI responsiveness, and overall user experience",
+        "Refactored existing codebase to improve maintainability, scalability, and code quality",
+        "Collaborated with team members to test, debug, and deploy secure full-stack features"
+      ],
+      achievements: [
+        "Successfully mitigated multiple high and critical security vulnerabilities across the platform",
+        "Improved application security posture by implementing industry-standard best practices",
+        "Enhanced frontend performance and reduced load times for better user experience",
+        "Strengthened authentication and authorization flows for secure user access",
+        "Delivered a more stable and scalable application ready for production use"
+      ],
+      technologies: [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "REST APIs",
+        "JWT",
+        "Web Security",
+        "Frontend Optimization"
+      ]
+    },
+    {
+      year: "Sep 2025 - Nov 2025",
+      title: "AI Intern",
+      company: "Infosys Springboard",
+      type: "Remote",
+      description:
+        "Worked as an AI Intern on the FinanceInsight project focusing on applying transformer-based NLP models to financial document analysis. Built and optimized machine learning pipelines to extract structured financial intelligence from unstructured reports using state-of-the-art deep learning techniques.",
+      responsibilities: [
+        "Designed and developed transformer-based NER models using PyTorch and Hugging Face Transformers",
+        "Fine-tuned FinBERT models on the Finer-139 dataset to identify domain-specific financial entities",
+        "Built automated pipelines for financial report parsing, document segmentation, and table extraction",
+        "Integrated external financial validation using Yahoo Finance APIs to verify extracted metrics",
+        "Developed scalable backend inference services using FastAPI",
+        "Collaborated with mentors and peers to evaluate model performance and optimize training strategies"
+      ],
+      achievements: [
+        "Achieved a weighted F1-score of 98.12% on financial entity extraction tasks",
+        "Reduced manual financial analysis time by 40% through automated document parsing pipelines",
+        "Improved accuracy and consistency of extracted financial metrics across reports and filings",
+        "Successfully validated extracted entities using real-time financial data sources"
+      ],
+      technologies: [
+        "Python",
+        "PyTorch",
+        "FastAPI",
+        "Hugging Face Transformers",
+        "NLP Pipelines",
+        "FinBERT"
+      ]
+    }
+  ];
 
   const skillsData = [
-  {
-    category: "Languages",
-    items: ["Java", "Python", "JavaScript", "TypeScript"]
-  },
-  {
-    category: "Frontend",
-    items: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Headless UI"]
-  },
-  { category: "Backend", items: ["Node.js", "Express.js", "REST APIs", "Flask"] },
-  {
-    category: "Databases",
-    items: [ "MongoDB", "PostgreSQL", "Supabase"]
-  },
-  {
-    category: "Cloud & Backend",
-    items: ["AWS", "Firebase", "Appwrite", "Convex", "Modal"]
-  },
-  {
-    category: "AI & Machine Learning",
-    items: ["PyTorch, TensorFlow", "Hugging Face Transformers", "Scikit-learn", "Pandas", "NumPy"]
-  },
-  {
-    category: "Authentication & Security",
-    items: ["Clerk", "BetterAuth", "JWT"]
-  },
-  {
-    category: "DevOps & Tools",
-    items: ["Git", "GitHub", "Docker", "Sentry", "Turborepo"]
-  },
-  {
-    category: "IDEs & Development Tools",
-    items: ["VS Code", "IntelliJ IDEA", "WebStorm", "PyCharm", "Jupyter Notebook"]
-  },
-  {
-    category: "Coursework",
-    items: [
-      "Data Structures & Algorithms",
-      "Object-Oriented Programming",
-      "Operating Systems",
-      "Database Management Systems"
-    ]
-  }
-];
+    {
+      category: "Languages",
+      items: ["Java", "Python", "JavaScript", "TypeScript"]
+    },
+    {
+      category: "Frontend",
+      items: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "Headless UI"]
+    },
+    { category: "Backend", items: ["Node.js", "Express.js", "REST APIs", "Flask"] },
+    {
+      category: "Databases",
+      items: ["MongoDB", "PostgreSQL", "Supabase"]
+    },
+    {
+      category: "Cloud & Backend",
+      items: ["AWS", "Firebase", "Appwrite", "Convex", "Modal"]
+    },
+    {
+      category: "AI & Machine Learning",
+      items: ["PyTorch, TensorFlow", "Hugging Face Transformers", "Scikit-learn", "Pandas", "NumPy"]
+    },
+    {
+      category: "Authentication & Security",
+      items: ["Clerk", "BetterAuth", "JWT"]
+    },
+    {
+      category: "DevOps & Tools",
+      items: ["Git", "GitHub", "Docker", "Sentry", "Turborepo"]
+    },
+    {
+      category: "IDEs & Development Tools",
+      items: ["VS Code", "IntelliJ IDEA", "WebStorm", "PyCharm", "Jupyter Notebook"]
+    },
+    {
+      category: "Coursework",
+      items: [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Operating Systems",
+        "Database Management Systems"
+      ]
+    }
+  ];
 
   const certificationData = [
     { title: "Full Stack Web Development", image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" },
@@ -130,67 +165,67 @@ export default function AboutPage() {
   ];
 
 
-const achievementsData = [
-  {
-    icon: Trophy,
-    title: "Outlier AI Hackathon Finalist",
-    description: "Top 10 finalist at the Outlier AI Hackathon and selected as a contributor for projects at Outlier AI."
-  },
-  {
-    icon: Users,
-    title: "Final Year Project Leadership",
-    description: "Leading the final year project team as a team leader, coordinating development and project execution."
-  },
-  {
-    icon: Award,
-    title: "Community Service Leadership",
-    description: "Led a 9-member team in a community service project educating rural farmers about sustainable agriculture practices."
-  },
-  {
-    icon: Code,
-    title: "Competitive Programming",
-    description: "Solved 570+ problems on LeetCode with a contest rating of 1637, strengthening problem-solving and algorithmic skills."
-  },
-  {
-    icon: Star,
-    title: "HackerRank Achievements",
-    description: "Earned 4-star ratings in Java, Python, and SQL on HackerRank."
-  },
-  {
-    icon: Github,
-    title: "Open Source & Development",
-    description: "Authored 600+ commits and 100+ Prs on GitHub and successfully deployed 10+ full-stack development projects."
-  },
-  { icon: Users, title: "Community Building", description: "Founded AIML Club with 80+ active members" },
-];
+  const achievementsData = [
+    {
+      icon: Trophy,
+      title: "Outlier AI Hackathon Finalist",
+      description: "Top 10 finalist at the Outlier AI Hackathon and selected as a contributor for projects at Outlier AI."
+    },
+    {
+      icon: Users,
+      title: "Final Year Project Leadership",
+      description: "Leading the final year project team as a team leader, coordinating development and project execution."
+    },
+    {
+      icon: Award,
+      title: "Community Service Leadership",
+      description: "Led a 9-member team in a community service project educating rural farmers about sustainable agriculture practices."
+    },
+    {
+      icon: Code,
+      title: "Competitive Programming",
+      description: "Solved 570+ problems on LeetCode with a contest rating of 1637, strengthening problem-solving and algorithmic skills."
+    },
+    {
+      icon: Star,
+      title: "HackerRank Achievements",
+      description: "Earned 4-star ratings in Java, Python, and SQL on HackerRank."
+    },
+    {
+      icon: Github,
+      title: "Open Source & Development",
+      description: "Authored 600+ commits and 100+ Prs on GitHub and successfully deployed 10+ full-stack development projects."
+    },
+    { icon: Users, title: "Community Building", description: "Founded AIML Club with 80+ active members" },
+  ];
 
-const extracurricularData = [
-  {
-    category: "Leadership",
-    activities: [
-      "Leading the final year project team as project leader",
-      "Led a 9-member team during a community service initiative for rural farmers",
-      "Coordinator of the technical event 'Strides' in college"
-    ]
-  },
-  {
-    category: "Technical",
-    activities: [
-      "Solved 570+ problems on LeetCode with a rating of 1637",
-      "Achieved 4-star ratings in Java, Python, and SQL on HackerRank",
-      "Authored 600+ commits and 100+ PRs on GitHub",
-      "Built and deployed 10+ full-stack projects"
-    ]
-  },
-  {
-    category: "Community & Events",
-    activities: [
-      "Coordinator for the 'Strides' technical event",
-      "Event coordinator during Engineers Day celebrations",
-      "Participated in national-level hackathons including Outlier AI Hackathon"
-    ]
-  }
-];
+  const extracurricularData = [
+    {
+      category: "Leadership",
+      activities: [
+        "Leading the final year project team as project leader",
+        "Led a 9-member team during a community service initiative for rural farmers",
+        "Coordinator of the technical event 'Strides' in college"
+      ]
+    },
+    {
+      category: "Technical",
+      activities: [
+        "Solved 570+ problems on LeetCode with a rating of 1637",
+        "Achieved 4-star ratings in Java, Python, and SQL on HackerRank",
+        "Authored 600+ commits and 100+ PRs on GitHub",
+        "Built and deployed 10+ full-stack projects"
+      ]
+    },
+    {
+      category: "Community & Events",
+      activities: [
+        "Coordinator for the 'Strides' technical event",
+        "Event coordinator during Engineers Day celebrations",
+        "Participated in national-level hackathons including Outlier AI Hackathon"
+      ]
+    }
+  ];
 
   return (
     <Layout>
@@ -286,8 +321,8 @@ const extracurricularData = [
         {/* Personal Overview Section (Matches image) */}
         <div className="space-y-16">
           <div className="text-center space-y-4">
-             <h2 className="text-4xl md:text-5xl font-extrabold gradient-text">Personal Overview</h2>
-             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Discover my journey, skills, and passion for creating innovative digital solutions</p>
+            <h2 className="text-4xl md:text-5xl font-extrabold gradient-text">Personal Overview</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Discover my journey, skills, and passion for creating innovative digital solutions</p>
           </div>
 
           {/* Tabs Container */}
@@ -337,15 +372,15 @@ const extracurricularData = [
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       {educationData.map((item, i) => (
                         <div key={i} className="glass-card p-8 rounded-[2rem] border border-border/50 hover:border-primary/50 transition-all group relative overflow-hidden">
-                           <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 group-hover:bg-primary/10 transition-colors" />
-                           <div className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-primary to-[#16a34a] text-white text-xs font-bold mb-6">
-                             {item.year.includes("-") ? item.year.split("-")[0].trim() : item.year}
-                           </div>
-                           <h4 className="text-xl font-bold mb-3">{item.title}</h4>
-                           <div className="flex items-center gap-2 text-muted-foreground">
-                             <div className="w-1.5 h-1.5 rounded-full bg-primary" />
-                             {item.school}
-                           </div>
+                          <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full -mr-16 -mt-16 group-hover:bg-primary/10 transition-colors" />
+                          <div className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-primary to-[#16a34a] text-white text-xs font-bold mb-6">
+                            {item.year.includes("-") ? item.year.split("-")[0].trim() : item.year}
+                          </div>
+                          <h4 className="text-xl font-bold mb-3">{item.title}</h4>
+                          <div className="flex items-center gap-2 text-muted-foreground">
+                            <div className="w-1.5 h-1.5 rounded-full bg-primary" />
+                            {item.school}
+                          </div>
                         </div>
                       ))}
                     </div>
@@ -452,17 +487,17 @@ const extracurricularData = [
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       {skillsData.map((group, i) => (
                         <div key={i} className="glass-card p-8 rounded-[2.5rem] border border-border/50 space-y-6">
-                           <h4 className="text-xl font-bold flex items-center gap-2">
-                             <CheckCircle2 size={20} className="text-primary" />
-                             {group.category}
-                           </h4>
-                           <div className="flex flex-wrap gap-2">
-                             {group.items.map((skill, j) => (
-                               <span key={j} className="px-4 py-2 bg-secondary rounded-xl text-sm font-medium border border-border/50 group-hover:border-primary/30 transition-colors">
-                                 {skill}
-                               </span>
-                             ))}
-                           </div>
+                          <h4 className="text-xl font-bold flex items-center gap-2">
+                            <CheckCircle2 size={20} className="text-primary" />
+                            {group.category}
+                          </h4>
+                          <div className="flex flex-wrap gap-2">
+                            {group.items.map((skill, j) => (
+                              <span key={j} className="px-4 py-2 bg-secondary rounded-xl text-sm font-medium border border-border/50 group-hover:border-primary/30 transition-colors">
+                                {skill}
+                              </span>
+                            ))}
+                          </div>
                         </div>
                       ))}
                     </div>
