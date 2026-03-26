@@ -192,7 +192,7 @@ function About() {
                 <h4 className="text-xl font-bold">Open to Work</h4>
                 <p className="text-sm md:text-base text-muted-foreground leading-relaxed">Available for new opportunities and collaborations on exciting projects. Let's build something amazing together.</p>
               </div>
-              <Link to="/contact" className="block">
+              <Link to="https://github.com/Alisha-21-cloud" className="block">
                 <Button variant="outline" className="w-full rounded-xl h-12 border-border/50 hover:bg-secondary/50 font-bold transition-all text-sm">
                 <Github className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                   Have a look at my work
