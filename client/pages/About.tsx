@@ -29,22 +29,23 @@ export default function AboutPage() {
       company: "Freelance",
       type: "Remote",
       description:
-        "Working as a freelance web developer delivering custom, production-ready web solutions for multiple clients across different domains. Handling end-to-end development from requirement gathering and UI design to deployment and post-launch support with a focus on performance, responsiveness, and modern web standards.",
+        "Working as a freelance web developer delivering production-grade web solutions to 10+ clients across multiple domains. Specialized in building scalable, high-performance applications including portfolio websites, SaaS platforms, AI-powered tools, model integrations, and analytics dashboards.Handled complete product lifecycle from requirement gathering to deployment and post-launch optimization, with consistent 5-star client ratings across all engagements.",
       responsibilities: [
-        "Collaborated with clients to understand business requirements and translate them into scalable web applications",
-        "Designed and developed responsive user interfaces using modern frontend frameworks and UI/UX best practices",
-        "Built and integrated REST APIs to enable dynamic data handling and third-party service integrations",
+        "Delivered end-to-end solutions for 10+ client projects, translating business needs into scalable applications",
+        "Built responsive, high-performance user interfaces using modern frontend frameworks and design principles",
+        "Developed and integrated REST APIs for dynamic data handling and third-party services",
         "Implemented authentication, authorization, and secure data handling across client projects",
         "Deployed and maintained applications on cloud platforms ensuring reliability and performance",
-        "Provided ongoing maintenance, feature enhancements, and technical support post-deployment"
+        "Provided continuous improvements, feature upgrades, and technical support post-deployment"
       ],
       achievements: [
-        "Successfully delivered multiple client projects within agreed timelines and budgets",
+        "Successfully delivered 10+ production-ready projects across diverse domains",
+        "Consistently received 5-star ratings and positive feedback from clients for quality and professionalism",
         "Improved website performance and responsiveness across devices for client-facing applications",
         "Built reusable components and modular codebases reducing development time for future projects",
         "Maintained long-term client relationships through consistent delivery and support"
       ],
-      technologies: ["Next.js", "React", "PostgreSQL", "Supabase", "Python"]
+      technologies: ["Next.js", "React", "PostgreSQL", "Supabase", " Clerk ","Agent-Sdk", "Inngest", "Python"]
     },
     {
       year: "Oct 2025 - Mar 2026",
